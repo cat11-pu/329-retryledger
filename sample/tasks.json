@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "limit": 2,
+  "task_error_code": "E_NO_TASK",
+  "dead_error_code": "E_DEAD",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "fails": [["t1", 0], ["t2", 0]], "pending": [], "dead": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "fail", "task": "t1" },
+    { "id": 2, "kind": "fail", "task": "t1" },
+    { "id": 3, "kind": "fail", "task": "t2" },
+    { "id": 4, "kind": "ok", "task": "t2" }
+  ]
+}
